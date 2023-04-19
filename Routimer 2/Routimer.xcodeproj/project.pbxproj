@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90CBD7C29BB2AC6002D17F2 /* routinLaunchIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B90CBD7B29BB2AC6002D17F2 /* routinLaunchIntents.intentdefinition */; };
+		B90D825F29E6B0C50010B368 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90D825E29E6B0C50010B368 /* UIColorHex.swift */; };
+		B92ADE132997257000FDD074 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92ADE122997257000FDD074 /* detailViewController.swift */; };
+		B92ADE152997529D00FDD074 /* stopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92ADE142997529D00FDD074 /* stopViewController.swift */; };
+		B92ADE17299752FC00FDD074 /* shortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92ADE16299752FC00FDD074 /* shortcutViewController.swift */; };
+		B92AE89429ADFF0700C75EE0 /* settingQRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92AE89329ADFF0700C75EE0 /* settingQRcodeViewController.swift */; };
+		B92AE89629AEC98000C75EE0 /* settingQRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92AE89529AEC98000C75EE0 /* settingQRReaderViewController.swift */; };
+		B933A75B29D2FD5900B5005E /* SE_halfTime01.caf in Resources */ = {isa = PBXBuildFile; fileRef = B933A75A29D2FD5900B5005E /* SE_halfTime01.caf */; };
+		B93C5A2629B84A1100C7C902 /* SE_alert01.caf in Resources */ = {isa = PBXBuildFile; fileRef = B93C5A2429B84A1100C7C902 /* SE_alert01.caf */; };
+		B93C5A2729B84A1100C7C902 /* SE_complete01.caf in Resources */ = {isa = PBXBuildFile; fileRef = B93C5A2529B84A1100C7C902 /* SE_complete01.caf */; };
+		B941F0B429A0AFD500F81B8B /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F0B329A0AFD500F81B8B /* scoreViewController.swift */; };
+		B973316629AC6724007E8017 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973316529AC6724007E8017 /* QRViewController.swift */; };
+		B973316829ACAAC0007E8017 /* MyQRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973316729ACAAC0007E8017 /* MyQRCodeReader.swift */; };
+		B981C96829DA8B60006A932B /* launchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981C96729DA8B60006A932B /* launchScreenViewController.swift */; };
+		B9A79DC9299DEA9200AA464E /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A79DC8299DEA9200AA464E /* playViewController.swift */; };
+		B9BF9F8229926E8A0073A988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF9F8129926E8A0073A988 /* AppDelegate.swift */; };
+		B9BF9F8429926E8A0073A988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF9F8329926E8A0073A988 /* SceneDelegate.swift */; };
+		B9BF9F8629926E8A0073A988 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF9F8529926E8A0073A988 /* mainViewController.swift */; };
+		B9BF9F8929926E8A0073A988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF9F8729926E8A0073A988 /* Main.storyboard */; };
+		B9BF9F8B29926E8B0073A988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BF9F8A29926E8B0073A988 /* Assets.xcassets */; };
+		B9BF9F8E29926E8B0073A988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BF9F8C29926E8B0073A988 /* LaunchScreen.storyboard */; };
+		B9BF9F96299270E70073A988 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF9F95299270E70073A988 /* settingViewController.swift */; };
+		B9EC74302993D263000267D1 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC742F2993D263000267D1 /* taskViewController.swift */; };
+		B9EC74332993D341000267D1 /* taskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC74312993D341000267D1 /* taskTableViewCell.swift */; };
+		B9EC74342993D341000267D1 /* taskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9EC74322993D341000267D1 /* taskTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		B9B5332729BCBB5400E4FC7E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		B9B5332A29BCBB5800E4FC7E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		B90CBD7B29BB2AC6002D17F2 /* routinLaunchIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = routinLaunchIntents.intentdefinition; sourceTree = "<group>"; };
+		B90D825E29E6B0C50010B368 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		B92ADE122997257000FDD074 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		B92ADE142997529D00FDD074 /* stopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopViewController.swift; sourceTree = "<group>"; };
+		B92ADE16299752FC00FDD074 /* shortcutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortcutViewController.swift; sourceTree = "<group>"; };
+		B92AE89329ADFF0700C75EE0 /* settingQRcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingQRcodeViewController.swift; sourceTree = "<group>"; };
+		B92AE89529AEC98000C75EE0 /* settingQRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingQRReaderViewController.swift; sourceTree = "<group>"; };
+		B933A75A29D2FD5900B5005E /* SE_halfTime01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SE_halfTime01.caf; sourceTree = "<group>"; };
+		B93C5A2429B84A1100C7C902 /* SE_alert01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SE_alert01.caf; sourceTree = "<group>"; };
+		B93C5A2529B84A1100C7C902 /* SE_complete01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SE_complete01.caf; sourceTree = "<group>"; };
+		B941F0B329A0AFD500F81B8B /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
+		B973316529AC6724007E8017 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		B973316729ACAAC0007E8017 /* MyQRCodeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQRCodeReader.swift; sourceTree = "<group>"; };
+		B981C96729DA8B60006A932B /* launchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchScreenViewController.swift; sourceTree = "<group>"; };
+		B9A79DC8299DEA9200AA464E /* playViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
+		B9BF9F7E29926E8A0073A988 /* Routimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF9F8129926E8A0073A988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9BF9F8329926E8A0073A988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9BF9F8529926E8A0073A988 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		B9BF9F8829926E8A0073A988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9BF9F8A29926E8B0073A988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BF9F8D29926E8B0073A988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9BF9F8F29926E8B0073A988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BF9F95299270E70073A988 /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		B9EC742F2993D263000267D1 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
+		B9EC74312993D341000267D1 /* taskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskTableViewCell.swift; sourceTree = "<group>"; };
+		B9EC74322993D341000267D1 /* taskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = taskTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BF9F7B29926E8A0073A988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9BF9F7529926E8A0073A988 = {
+			isa = PBXGroup;
+			children = (
+				B9BF9F8029926E8A0073A988 /* Routimer */,
+				B9BF9F7F29926E8A0073A988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BF9F7F29926E8A0073A988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF9F7E29926E8A0073A988 /* Routimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BF9F8029926E8A0073A988 /* Routimer */ = {
+			isa = PBXGroup;
+			children = (
+				B90D825E29E6B0C50010B368 /* UIColorHex.swift */,
+				B92ADE142997529D00FDD074 /* stopViewController.swift */,
+				B9BF9F8129926E8A0073A988 /* AppDelegate.swift */,
+				B973316729ACAAC0007E8017 /* MyQRCodeReader.swift */,
+				B973316529AC6724007E8017 /* QRViewController.swift */,
+				B9A79DC8299DEA9200AA464E /* playViewController.swift */,
+				B93C5A2429B84A1100C7C902 /* SE_alert01.caf */,
+				B93C5A2529B84A1100C7C902 /* SE_complete01.caf */,
+				B933A75A29D2FD5900B5005E /* SE_halfTime01.caf */,
+				B9BF9F8329926E8A0073A988 /* SceneDelegate.swift */,
+				B90CBD7B29BB2AC6002D17F2 /* routinLaunchIntents.intentdefinition */,
+				B941F0B329A0AFD500F81B8B /* scoreViewController.swift */,
+				B9BF9F8729926E8A0073A988 /* Main.storyboard */,
+				B92AE89329ADFF0700C75EE0 /* settingQRcodeViewController.swift */,
+				B92AE89529AEC98000C75EE0 /* settingQRReaderViewController.swift */,
+				B92ADE16299752FC00FDD074 /* shortcutViewController.swift */,
+				B92ADE122997257000FDD074 /* detailViewController.swift */,
+				B9BF9F8529926E8A0073A988 /* mainViewController.swift */,
+				B9EC742F2993D263000267D1 /* taskViewController.swift */,
+				B9EC74312993D341000267D1 /* taskTableViewCell.swift */,
+				B9EC74322993D341000267D1 /* taskTableViewCell.xib */,
+				B9BF9F95299270E70073A988 /* settingViewController.swift */,
+				B9BF9F8A29926E8B0073A988 /* Assets.xcassets */,
+				B9BF9F8C29926E8B0073A988 /* LaunchScreen.storyboard */,
+				B981C96729DA8B60006A932B /* launchScreenViewController.swift */,
+				B9BF9F8F29926E8B0073A988 /* Info.plist */,
+			);
+			path = Routimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BF9F7D29926E8A0073A988 /* Routimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BF9F9229926E8B0073A988 /* Build configuration list for PBXNativeTarget "Routimer" */;
+			buildPhases = (
+				B9BF9F7A29926E8A0073A988 /* Sources */,
+				B9BF9F7B29926E8A0073A988 /* Frameworks */,
+				B9BF9F7C29926E8A0073A988 /* Resources */,
+			);
+			buildRules = (
+				B9B5332A29BCBB5800E4FC7E /* PBXBuildRule */,
+				B9B5332729BCBB5400E4FC7E /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Routimer;
+			productName = pra04;
+			productReference = B9BF9F7E29926E8A0073A988 /* Routimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BF9F7629926E8A0073A988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9BF9F7D29926E8A0073A988 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B9BF9F7929926E8A0073A988 /* Build configuration list for PBXProject "Routimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BF9F7529926E8A0073A988;
+			productRefGroup = B9BF9F7F29926E8A0073A988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BF9F7D29926E8A0073A988 /* Routimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BF9F7C29926E8A0073A988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EC74342993D341000267D1 /* taskTableViewCell.xib in Resources */,
+				B93C5A2729B84A1100C7C902 /* SE_complete01.caf in Resources */,
+				B9BF9F8E29926E8B0073A988 /* LaunchScreen.storyboard in Resources */,
+				B9BF9F8B29926E8B0073A988 /* Assets.xcassets in Resources */,
+				B933A75B29D2FD5900B5005E /* SE_halfTime01.caf in Resources */,
+				B93C5A2629B84A1100C7C902 /* SE_alert01.caf in Resources */,
+				B9BF9F8929926E8A0073A988 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BF9F7A29926E8A0073A988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF9F8629926E8A0073A988 /* mainViewController.swift in Sources */,
+				B92AE89629AEC98000C75EE0 /* settingQRReaderViewController.swift in Sources */,
+				B9EC74302993D263000267D1 /* taskViewController.swift in Sources */,
+				B92ADE152997529D00FDD074 /* stopViewController.swift in Sources */,
+				B941F0B429A0AFD500F81B8B /* scoreViewController.swift in Sources */,
+				B9BF9F8229926E8A0073A988 /* AppDelegate.swift in Sources */,
+				B973316829ACAAC0007E8017 /* MyQRCodeReader.swift in Sources */,
+				B9EC74332993D341000267D1 /* taskTableViewCell.swift in Sources */,
+				B9A79DC9299DEA9200AA464E /* playViewController.swift in Sources */,
+				B90D825F29E6B0C50010B368 /* UIColorHex.swift in Sources */,
+				B981C96829DA8B60006A932B /* launchScreenViewController.swift in Sources */,
+				B9BF9F8429926E8A0073A988 /* SceneDelegate.swift in Sources */,
+				B92AE89429ADFF0700C75EE0 /* settingQRcodeViewController.swift in Sources */,
+				B9BF9F96299270E70073A988 /* settingViewController.swift in Sources */,
+				B92ADE17299752FC00FDD074 /* shortcutViewController.swift in Sources */,
+				B92ADE132997257000FDD074 /* detailViewController.swift in Sources */,
+				B90CBD7C29BB2AC6002D17F2 /* routinLaunchIntents.intentdefinition in Sources */,
+				B973316629AC6724007E8017 /* QRViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9BF9F8729926E8A0073A988 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BF9F8829926E8A0073A988 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BF9F8C29926E8B0073A988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BF9F8D29926E8B0073A988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BF9F9029926E8B0073A988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9BF9F9129926E8B0073A988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BF9F9329926E8B0073A988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = KC23MNBJVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Routimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Routimer;
+				INFOPLIST_KEY_NSCameraUsageDescription = "RoutimerはQRコードを検知するためにカメラ機能を使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真を保存します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = shuhei.nishikawa.Routimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9BF9F9429926E8B0073A988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = KC23MNBJVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Routimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Routimer;
+				INFOPLIST_KEY_NSCameraUsageDescription = "RoutimerはQRコードを検知するためにカメラ機能を使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真を保存します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = shuhei.nishikawa.Routimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BF9F7929926E8A0073A988 /* Build configuration list for PBXProject "Routimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF9F9029926E8B0073A988 /* Debug */,
+				B9BF9F9129926E8B0073A988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BF9F9229926E8B0073A988 /* Build configuration list for PBXNativeTarget "Routimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF9F9329926E8B0073A988 /* Debug */,
+				B9BF9F9429926E8B0073A988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BF9F7629926E8A0073A988 /* Project object */;
+}
