@@ -1,0 +1,285 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "12O-y0-awF"; */
+"12O-y0-awF.title" = "Item";
+
+/* Class = "UILabel"; text = "❷"; ObjectID = "1ca-QI-KGo"; */
+"1ca-QI-KGo.text" = "❷";
+
+/* Class = "UILabel"; text = "□"; ObjectID = "34E-Kd-wfC"; */
+"34E-Kd-wfC.text" = "□";
+
+/* Class = "UINavigationItem"; title = "Routimer"; ObjectID = "4Af-px-jwl"; */
+"4Af-px-jwl.title" = "Routimer";
+
+/* Class = "UILabel"; text = "❶"; ObjectID = "4Ej-P7-m9p"; */
+"4Ej-P7-m9p.text" = "❶";
+
+/* Class = "UILabel"; text = "1時間40分30秒"; ObjectID = "4cQ-mp-CfT"; */
+"4cQ-mp-CfT.text" = "1時間40分30秒";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5c7-LA-Mwb"; */
+"5c7-LA-Mwb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "5t7-XF-csz"; */
+"5t7-XF-csz.text" = "00";
+
+/* Class = "UITextField"; text = "新規ルーチン"; ObjectID = "6OQ-LX-IRC"; */
+"6OQ-LX-IRC.text" = "新規ルーチン";
+
+/* Class = "UILabel"; text = "❼"; ObjectID = "76p-I8-r8t"; */
+"76p-I8-r8t.text" = "❼";
+
+/* Class = "UILabel"; text = "一つ前のタスク名"; ObjectID = "7nq-c4-QDd"; */
+"7nq-c4-QDd.text" = "一つ前のタスク名";
+
+/* Class = "UILabel"; text = "1時間40分30秒"; ObjectID = "8E7-qT-HVH"; */
+"8E7-qT-HVH.text" = "1時間40分30秒";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8fK-hA-66d"; */
+"8fK-hA-66d.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "9Zn-63-B1q"; */
+"9Zn-63-B1q.title" = "保存";
+
+/* Class = "UILabel"; text = "自動スキップ"; ObjectID = "Ar3-e9-Kjl"; */
+"Ar3-e9-Kjl.text" = "自動スキップ";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "CJw-qf-jY3"; */
+"CJw-qf-jY3.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "ルーチン名(1/8)"; ObjectID = "E3P-St-ZzL"; */
+"E3P-St-ZzL.title" = "ルーチン名(1/8)";
+
+/* Class = "UILabel"; text = "記録：1時間40分30秒"; ObjectID = "F2L-F2-i1k"; */
+"F2L-F2-i1k.text" = "記録：1時間40分30秒";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FBc-4f-KY9"; */
+"FBc-4f-KY9.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FZF-0S-C2Q"; */
+"FZF-0S-C2Q.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "●残り時間アナウンス"; ObjectID = "FZW-ri-iNd"; */
+"FZW-ri-iNd.text" = "●残り時間アナウンス";
+
+/* Class = "UILabel"; text = "ルーチンの左にある番号を入力"; ObjectID = "FcK-9x-3QT"; */
+"FcK-9x-3QT.text" = "ルーチンの左にある番号を入力";
+
+/* Class = "UILabel"; text = "➓"; ObjectID = "Fnh-3c-AhP"; */
+"Fnh-3c-AhP.text" = "➓";
+
+/* Class = "UILabel"; text = "1."; ObjectID = "Foa-ck-M6g"; */
+"Foa-ck-M6g.text" = "1.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gc8-Yi-dW7"; */
+"Gc8-Yi-dW7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "2022/2/12"; ObjectID = "H9H-bx-L0Y"; */
+"H9H-bx-L0Y.text" = "2022/2/12";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Htp-eJ-SKX"; */
+"Htp-eJ-SKX.title" = "Item";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "IxC-Uz-qoh"; */
+"IxC-Uz-qoh.text" = "00";
+
+/* Class = "UILabel"; text = "●アナウンス音量"; ObjectID = "JQj-nH-35o"; */
+"JQj-nH-35o.text" = "●アナウンス音量";
+
+/* Class = "UILabel"; text = "2022/2/12"; ObjectID = "KNV-Z9-ylT"; */
+"KNV-Z9-ylT.text" = "2022/2/12";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KxA-6a-lSJ"; */
+"KxA-6a-lSJ.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "QRコード設定"; ObjectID = "LHF-qz-Pvm"; */
+"LHF-qz-Pvm.title" = "QRコード設定";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Mkm-b3-HdZ"; */
+"Mkm-b3-HdZ.text" = "00:00";
+
+/* Class = "UILabel"; text = "00時間00分00秒"; ObjectID = "Nft-qP-UsA"; */
+"Nft-qP-UsA.text" = "00時間00分00秒";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nix-hq-gaO"; */
+"Nix-hq-gaO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "□"; ObjectID = "OMF-2r-jaW"; */
+"OMF-2r-jaW.text" = "□";
+
+/* Class = "UINavigationItem"; title = "ルーチン名"; ObjectID = "RGn-NE-xVo"; */
+"RGn-NE-xVo.title" = "ルーチン名";
+
+/* Class = "UITextView"; text = "⚠️アプリをキルした状態では起動できません⚠️"; ObjectID = "RbQ-M2-79m"; */
+"RbQ-M2-79m.text" = "⚠️アプリをキルした状態では起動できません⚠️";
+
+/* Class = "UILabel"; text = "停止方法"; ObjectID = "Snj-fo-Wcg"; */
+"Snj-fo-Wcg.text" = "停止方法";
+
+/* Class = "UIButton"; configuration.title = "共有"; ObjectID = "TGX-Ps-uNb"; */
+"TGX-Ps-uNb.configuration.title" = "共有";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TGX-Ps-uNb"; */
+"TGX-Ps-uNb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "❽"; ObjectID = "UKN-n4-qs2"; */
+"UKN-n4-qs2.text" = "❽";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VfN-v1-Ipk"; */
+"VfN-v1-Ipk.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W5D-G2-MkO"; */
+"W5D-G2-MkO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "前回読み込み(一括)"; ObjectID = "X23-JZ-e5f"; */
+"X23-JZ-e5f.text" = "前回読み込み(一括)";
+
+/* Class = "UILabel"; text = "□"; ObjectID = "Xzz-qQ-mfx"; */
+"Xzz-qQ-mfx.text" = "□";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YxL-ip-yao"; */
+"YxL-ip-yao.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ランキング"; ObjectID = "ZKI-Hh-vbt"; */
+"ZKI-Hh-vbt.text" = "ランキング";
+
+/* Class = "UILabel"; text = "●タスク時間"; ObjectID = "ZZ7-1G-eid"; */
+"ZZ7-1G-eid.text" = "●タスク時間";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "ZhQ-Ed-hdS"; */
+"ZhQ-Ed-hdS.text" = "+";
+
+/* Class = "UILabel"; text = "❻"; ObjectID = "b1l-0x-HrN"; */
+"b1l-0x-HrN.text" = "❻";
+
+/* Class = "UILabel"; text = "QRコード"; ObjectID = "bFC-3l-AKo"; */
+"bFC-3l-AKo.text" = "QRコード";
+
+/* Class = "UILabel"; text = "❸"; ObjectID = "c9h-Xq-nJa"; */
+"c9h-Xq-nJa.text" = "❸";
+
+/* Class = "UIButton"; configuration.title = "キャンセル"; ObjectID = "cWr-36-o54"; */
+"cWr-36-o54.configuration.title" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cWr-36-o54"; */
+"cWr-36-o54.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "②iPhoneのショートカットアプリ設定"; ObjectID = "crL-GR-Fde"; */
+"crL-GR-Fde.text" = "②iPhoneのショートカットアプリ設定";
+
+/* Class = "UILabel"; text = "❺"; ObjectID = "dJJ-KD-5dK"; */
+"dJJ-KD-5dK.text" = "❺";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dUA-1I-UIz"; */
+"dUA-1I-UIz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "先ほど設定したアラームを選択"; ObjectID = "euh-7x-rWT"; */
+"euh-7x-rWT.text" = "先ほど設定したアラームを選択";
+
+/* Class = "UILabel"; text = "❹"; ObjectID = "fMf-RC-jZD"; */
+"fMf-RC-jZD.text" = "❹";
+
+/* Class = "UILabel"; text = "(予定より1:00早く完了しました！)"; ObjectID = "fVL-hw-9Sb"; */
+"fVL-hw-9Sb.text" = "(予定より1:00早く完了しました！)";
+
+/* Class = "UITextField"; text = "タスク名"; ObjectID = "fvZ-zQ-xhG"; */
+"fvZ-zQ-xhG.text" = "タスク名";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g0e-Ff-c5g"; */
+"g0e-Ff-c5g.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gld-b7-3Yj"; */
+"gld-b7-3Yj.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "オート起動設定"; ObjectID = "htI-11-vfJ"; */
+"htI-11-vfJ.title" = "オート起動設定";
+
+/* Class = "UILabel"; text = "2."; ObjectID = "kaH-16-PWP"; */
+"kaH-16-PWP.text" = "2.";
+
+/* Class = "UILabel"; text = "●完了効果音の音量"; ObjectID = "kgD-OQ-XEx"; */
+"kgD-OQ-XEx.text" = "●完了効果音の音量";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kmk-0x-Zv9"; */
+"kmk-0x-Zv9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "●タイマー停止方法"; ObjectID = "kx1-9q-ezP"; */
+"kx1-9q-ezP.text" = "●タイマー停止方法";
+
+/* Class = "UINavigationItem"; title = "設定"; ObjectID = "kxs-Ax-CB2"; */
+"kxs-Ax-CB2.title" = "設定";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "m3h-PZ-m18"; */
+"m3h-PZ-m18.title" = "完了";
+
+/* Class = "UILabel"; text = "①iPhoneの時計アプリでアラーム設定"; ObjectID = "m9H-5T-N20"; */
+"m9H-5T-N20.text" = "①iPhoneの時計アプリでアラーム設定";
+
+/* Class = "UILabel"; text = "Bluetoothイヤホン装着"; ObjectID = "nFP-7d-rPW"; */
+"nFP-7d-rPW.text" = "Bluetoothイヤホン装着";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nf7-sZ-dtD"; */
+"nf7-sZ-dtD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "iPhoneが充電された時"; ObjectID = "o6b-eA-tOz"; */
+"o6b-eA-tOz.text" = "iPhoneが充電された時";
+
+/* Class = "UIBarButtonItem"; title = "戻る"; ObjectID = "pDB-we-kMC"; */
+"pDB-we-kMC.title" = "戻る";
+
+/* Class = "UILabel"; text = "一つ後のタスク名"; ObjectID = "qzZ-cb-x75"; */
+"qzZ-cb-x75.text" = "一つ後のタスク名";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rAL-Vq-mze"; */
+"rAL-Vq-mze.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "rGr-0x-ivg"; */
+"rGr-0x-ivg.text" = ":";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rnU-L6-fJH"; */
+"rnU-L6-fJH.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sqJ-8F-z6J"; */
+"sqJ-8F-z6J.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1時間40分30秒"; ObjectID = "tXt-E1-22Z"; */
+"tXt-E1-22Z.text" = "1時間40分30秒";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tcd-BB-D25"; */
+"tcd-BB-D25.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "2022/2/12"; ObjectID = "uDa-1E-56u"; */
+"uDa-1E-56u.text" = "2022/2/12";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uQa-AS-FGe"; */
+"uQa-AS-FGe.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ufD-sc-TPk"; */
+"ufD-sc-TPk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vb5-4A-fFs"; */
+"vb5-4A-fFs.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vu6-ce-PtQ"; */
+"vu6-ce-PtQ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wM7-mc-3mZ"; */
+"wM7-mc-3mZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "□"; ObjectID = "x9a-Er-IKs"; */
+"x9a-Er-IKs.text" = "□";
+
+/* Class = "UILabel"; text = "❾"; ObjectID = "xFu-kI-CeZ"; */
+"xFu-kI-CeZ.text" = "❾";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xUO-3X-cg8"; */
+"xUO-3X-cg8.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xVy-hC-4To"; */
+"xVy-hC-4To.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "🌟これで設定完了です🌟"; ObjectID = "yLe-cj-iae"; */
+"yLe-cj-iae.text" = "🌟これで設定完了です🌟";
+
+/* Class = "UILabel"; text = "3."; ObjectID = "zi1-6S-igv"; */
+"zi1-6S-igv.text" = "3.";
